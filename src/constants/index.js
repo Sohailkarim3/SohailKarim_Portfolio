@@ -42,6 +42,14 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "skills",
+    title: "Skills",
+  },
+  {
+    id: "cv",
+    title: "CV",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -61,7 +69,15 @@ const services = [
     icon: backend,
   },
   {
-    title: "ML Kit Specialist",
+    title: "ML Kit",
+    icon: creator,
+  },
+  {
+    title: "API Development",
+    icon: backend,
+  },
+  {
+    title: "UI/UX Design",
     icon: creator,
   },
 ];
@@ -115,6 +131,22 @@ const technologies = [
     name: "Git",
     icon: git,
   },
+  {
+    name: "Material Design",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
+  },
+  {
+    name: "Gradle",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/gradle/gradle-original.svg",
+  },
+  {
+    name: "JSON",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/json/json-original.svg",
+  },
+  {
+    name: "REST API",
+    icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
+  },
   // {
   //   name: "Flutter",
   //   icon: "https://raw.githubusercontent.com/devicons/devicon/master/icons/flutter/flutter-original.svg",
@@ -157,6 +189,7 @@ const experiences = [
       "Hindi to English Translator: Built a multilingual translation tool supporting Hindi, Tamil, Gujarati, and Marathi with voice speed playback.",
       "Smart Alarm Clock: Created a customizable alarm app with live wallpaper and lock screen time display.",
       "All Video Downloader: Enabled downloads from multiple social platforms using scripting in Kotlin.",
+      "TikTok Downloader (No Watermark): TikTok video download using Kotlin.",
     ],
   },
   {
@@ -188,7 +221,7 @@ const projects = [
       { name: "flutter-extension", color: "pink-text-gradient" },
     ],
     // image: flood1,
-    // source_code_link: "https://github.com/sohailkarim",
+    source_code_link: "https://github.com/sohailkarim",
   },
   {
     name: "Anti-Theft App",
@@ -200,7 +233,7 @@ const projects = [
       { name: "motion-detection", color: "pink-text-gradient" },
     ],
     // image: flood2,
-    // source_code_link: "https://github.com/sohailkarim",
+    source_code_link: "https://github.com/sohailkarim",
   },
   {
     name: "Unread SMS",
@@ -246,6 +279,96 @@ const projects = [
     ],
     source_code_link: "https://github.com/sohailkarim",
   },
+  {
+    name: "Smart Alarm Clock",
+    description:
+      "Created a customizable alarm app with live wallpaper and lock screen time display.",
+    tags: [
+      { name: "android", color: "blue-text-gradient" },
+      { name: "alarm", color: "green-text-gradient" },
+      { name: "live-wallpaper", color: "pink-text-gradient" },
+    ],
+    source_code_link: "https://github.com/sohailkarim",
+  },
+  {
+    name: "Hindi to English Translator",
+    description:
+      "Built a multilingual translation tool supporting Hindi, Tamil, Gujarati, and Marathi with voice speed playback.",
+    tags: [
+      { name: "kotlin", color: "blue-text-gradient" },
+      { name: "translation", color: "green-text-gradient" },
+      { name: "multilingual", color: "pink-text-gradient" },
+    ],
+    source_code_link: "https://github.com/sohailkarim",
+  },
+  {
+    name: "FCM Notification Tool",
+    description:
+      "Implemented Firebase Cloud Messaging to send real-time notifications to Play Store apps.",
+    tags: [
+      { name: "firebase", color: "blue-text-gradient" },
+      { name: "notifications", color: "green-text-gradient" },
+      { name: "real-time", color: "pink-text-gradient" },
+    ],
+    source_code_link: "https://github.com/sohailkarim",
+  },
 ];
 
-export { services, technologies, experiences, projects };
+// New Skills structure with categories and items
+const skills = [
+  {
+    category: "E-commerce Skills",
+    items: [
+      "Shopify Product Hunting",
+      "Shopify Product Sales",
+      "Facebook Ads Campaigns (Basics)",
+      "Amazon Wholesale Basics (Product Hunting using Helium 10)",
+    ],
+  },
+  {
+    category: "Technical Skills",
+    items: [
+      "Java Developer",
+      "Google Ads Implementation",
+      "API Integration",
+      "Retrofit Library",
+      "Volley Library",
+      "MVVM Architecture",
+      "Room Database",
+      "Firebase Realtime Database",
+      "Firebase Analytics",
+      "Firebase Crashlytics",
+      "Web Scraping",
+      "RESTful APIs",
+      "JSON Parsing",
+      "SQLite Database",
+      "Material Design",
+      "Custom UI Components",
+      "Background Services",
+    ],
+  },
+  {
+    category: "Tools & Technologies",
+    items: [
+      "Android Studio",
+      "IntelliJ IDEA",
+      "Git & GitHub",
+      "Postman",
+      "Figma",
+      "Adobe XD",
+      "Jira",
+      "Slack",
+      "Trello",
+      "VS Code",
+      "Chrome DevTools",
+      "Firebase Console",
+      "Google Play Console",
+      "Android Debug Bridge (ADB)",
+      "Gradle Build System",
+      "ProGuard",
+      "R8 Code Shrinking",
+    ],
+  },
+];
+
+export { services, technologies, experiences, projects, skills };

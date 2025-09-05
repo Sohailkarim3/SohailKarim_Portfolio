@@ -79,35 +79,23 @@ const ProjectCard = ({
         )}
 
         <div className={image ? "mt-5" : "mt-0"}>
-          <h3 className="font-bold text-[24px] bg-gradient-to-r from-[#915EFF] to-blue-400 bg-clip-text text-transparent drop-shadow-md">{name}</h3>
-          <p className="mt-2 text-secondary text-[14px]">{description}</p>
-        </div>
-
-        <div className="mt-4 flex flex-wrap gap-2">
-          {tags.map((tag) => (
-            <p
-              key={`${name}-${tag.name}`}
-              className={`text-[14px] ${tag.color}`}
-            >
-              #{tag.name}
-            </p>
-          ))}
-        </div>
-
-        {!image && (
-          <div className="mt-4 flex justify-end">
-            <div
-              onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
-            >
-              <img
-                src={github}
-                alt="source code"
-                className="w-1/2 h-1/2 object-contain"
-              />
-            </div>
+          <h3 className="font-extrabold text-[24px] bg-gradient-to-r from-[#915EFF] to-blue-400 bg-clip-text text-transparent drop-shadow-md">
+            {name}
+          </h3>
+          <p className="mt-3 text-white text-[15px] leading-relaxed">{description}</p>
+          
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <span
+                key={`${name}-${tag.name}`}
+                className={`text-[12px] px-3 py-1 rounded-full ${tag.color} bg-opacity-20 border border-opacity-30`}
+              >
+                {tag.name}
+              </span>
+            ))}
           </div>
-        )}
+        </div>
+
       </Tilt>
     </div>
   );
