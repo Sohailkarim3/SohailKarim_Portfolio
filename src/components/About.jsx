@@ -72,7 +72,7 @@ const About = () => {
       </div>
 
               <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled Android developer with over 4 years of experience building robust, user-friendly mobile applications using Kotlin and Java. I specialize in Firebase integration, ML Kit implementation, real-time databases, and Jetpack libraries. My expertise spans from developing AI-powered features like face detection to creating security tools and media downloaders. I'm passionate about creating efficient, scalable Android solutions that solve real-world problems. Let's work together to bring your mobile app ideas to life!
+        I'm a skilled Android developer with over 4 years of experience building robust, user-friendly mobile applications using Kotlin and Java. I specialize in Firebase integration, ML Kit implementation, real-time databases, and Jetpack libraries. My expertise spans from developing AI-powered features like face detection to creating security tools and media downloaders. I'm passionate about creating efficient, scalable Android solutions that solve real-world problems. Currently based in Zhejiang Province, Lishui, China. Let's work together to bring your mobile app ideas to life!
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">
