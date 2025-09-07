@@ -271,7 +271,7 @@ const projects = [
   {
     name: "TikTok Downloader (No Watermark)",
     description:
-      "TikTok video download using Kotlin.",
+      "TikTok video download via  Api using Kotlin language .",
     tags: [
       { name: "kotlin", color: "blue-text-gradient" },
       { name: "tiktok", color: "green-text-gradient" },
@@ -328,7 +328,8 @@ const skills = [
   {
     category: "Technical Skills",
     items: [
-      "Java Developer",
+      "Java",
+      "Kotlin",
       "Google Ads Implementation",
       "API Integration",
       "Retrofit Library",
@@ -345,28 +346,21 @@ const skills = [
       "Material Design",
       "Custom UI Components",
       "Background Services",
+      "GDPR Implementation",
     ],
   },
   {
     category: "Tools & Technologies",
     items: [
       "Android Studio",
-      "IntelliJ IDEA",
       "Git & GitHub",
       "Postman",
-      "Figma",
-      "Adobe XD",
       "Jira",
-      "Slack",
-      "Trello",
-      "VS Code",
-      "Chrome DevTools",
       "Firebase Console",
       "Google Play Console",
       "Android Debug Bridge (ADB)",
       "Gradle Build System",
       "ProGuard",
-      "R8 Code Shrinking",
     ],
   },
 ];
